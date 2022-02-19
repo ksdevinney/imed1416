@@ -1,4 +1,4 @@
-# Table Markup
+# Chapter 8: Table Markup
 
 Tables: for data that needs to be organized in columns and rows (schedules, data)
 
@@ -25,3 +25,17 @@ Use <caption> within your table to display a title
 
 scope attribute associates table content with a cell or group of cells (use with th)
 
+headers attribute can tie a cell's id to a td cell
+
+## Grouping Rows and Columns
+
+thead
+tfoot
+tbody
+
+for rows, can cluster a group of rows together
+
+colgroup
+col
+
+for columns
