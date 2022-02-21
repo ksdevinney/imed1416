@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="faq.html">FAQ</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact-us.html">Contact Us</a>
+        </nav>
+    </header>
+    <p>Use the form below to let us know if you have any questions or comments!</p>
+    <fieldset>
+        <legend>Contact Form</legend>
+        <form action="mailto:katie@devinney.org" method="post">
+            <label for="email">Email Address</label><br>
+            <input type="text" id="email" placeholder="name@example.com"><br>
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" placeholder="123-456-7890"><br>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" placeholder="Firstname Lastname"><br>
+            <label for="contactType">I prefer to be contacted by:</label><br>
+            <select name="contact" id="contactType">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+            </select><br>
+            <p>Is this a question or a comment?</p>
+            <input type="radio" name="contact" value="comment" id="comment">
+            <label for="comment">Comment</label><br>
+            <input type="radio" name="contact" value="question" id="question">
+            <label for="comment">Question</label><br>
+            <label for="commentBox">Enter questions or comments here:</label><br>
+            <textarea id="commentBox" placeholder="Type your questions or comments here..." rows="10"
+                cols="30"></textarea><br>
+            <input type="checkbox" name="copy" value="copy" id="copyMe">
+            <label for="copyMe">Send me a copy of this form</label><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </fieldset>
+
+    <footer>
+        <h3>2022 Katie Devinney - information courtesy of Wikipedia and IMDB - <a
+                href="https://www.dallascollege.edu/pages/default.aspx" target="_blank">Dallas College</a> - <a
+                href="mailto:webmaster@webmaster.com">Email Webmaster</a></h3>
+    </footer>
+</body>
+
+</html>
