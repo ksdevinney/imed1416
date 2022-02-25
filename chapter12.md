@@ -49,7 +49,7 @@ text-decoration: underline, overline, line-through, blink. blinking is not allow
 
 text-transform: changes capitalization of text. Capitalize: first letter of each word
 
-letter-spacing, word-sapcing: use a length measurement to add spacing between letters or words
+letter-spacing, word-spacing: use a length measurement to add spacing between letters or words
 
 text-shadow: horizontal-offset vertical-offset blur-radius (optional) color
 

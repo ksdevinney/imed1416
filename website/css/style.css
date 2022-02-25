@@ -1,0 +1,25 @@
+body {
+    font-family: Avenir, Geneva, Calibri, sans-serif;
+    color: #000066;
+    text-align: justify;
+    background-color: #e6e6ff;
+}
+
+a {
+    color: #3535C4;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #691269;
+}
+
+a:hover {
+    color: #AD4B4B;
+}
+
+p {
+    padding: 1.5rem;
+    text-indent: 3rem;
+}
