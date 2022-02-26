@@ -37,3 +37,37 @@ a:visited
 :active link or button is in the process of being clicked
 
 ## Pseudo Elements
+
+::first-line: for the first line of the specified element
+
+::first-letter: first letter of an element
+
+::before and ::after can place content right before or after an element
+
+## Background Images
+
+background-image: to set an image as a background, url should be relative to location of css rule (for external style sheets, it will be relative to the html document). Image will tile on the page.
+
+It is recommended to use background-color similar to the main color of the background-image, so that the appearance will stay similar even if background image doesn't load
+
+background-repeat: changes tiling of background image
+
+background-position: positions background element on page. Keyword values can be paired (left bottom)
+
+background-origin: similar to background-clip
+
+background-attachment: lets you keep the image in a fixed position
+
+background-size: yeah
+
+Can abbreviate all of these into "background"
+
+CSS also allows multiple backgrounds- the one listed last goes on the bottom, everything else goes on top
+
+## Gradients
+
+Linear gradient: provides the angle of the gradient line and one or more "stops" along the way
+
+Radial gradients: start from one point and radiate out in a circle. Requires at least two colors. Fills available background area. Shape, size, and position keywords.
+
+Both types of gradients can also repeat (or stripe)
