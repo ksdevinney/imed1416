@@ -5,6 +5,17 @@ body {
     background-color: #e6e6ff;
 }
 
+p {
+    padding: 1.5rem;
+    text-indent: 3rem;
+}
+/* style for at least one class */
+
+h3.footer {
+    font-size: 1rem;
+    color: grey;
+}
+
 a:link {
     color: #3535C4;
     font-weight: 600;
@@ -20,8 +31,45 @@ a:hover {
 }
 
 /* add focus, hover, active pseduoclasses for a */
-
-p {
-    padding: 1.5rem;
-    text-indent: 3rem;
+a:focus, a:hover {
+    background-color: aliceblue;
 }
+
+a:active {
+    color: burlywood;
+}
+
+
+
+#noIndent {
+    text-indent: none;
+}
+
+/* default styles for h1-h6 */
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4, h5, h6 {
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, Cambira, Cochin, serif;
+}
+
+#showsList {
+    list-style-type: square;
+    list-style-position: inside;
+    text-indent: 3.5rem;
+}
+/* style for at least 1 id */

@@ -8,6 +8,23 @@
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="stylesheet" href="css/style.css">
     <!-- add internal style for focus -->
+    <style>
+        input:focus, textarea:focus {
+            border-left: 5px solid blue;
+            background-color: #cce6ff;
+        }
+
+        fieldset {
+            border-width: .5rem;
+            border-radius: 5px;
+        }
+
+        p.noIndent {
+            text-indent: 0rem;
+            padding: 0rem
+        }
+
+    </style>
 </head>
 
 <body>
@@ -20,7 +37,7 @@
             <a href="contact-us.html">Contact Us</a>
         </nav>
     </header>
-    <p>Use the form below to let us know if you have any questions or comments!</p>
+    <p class="noIndent">Use the form below to let us know if you have any questions or comments!</p>
     <fieldset>
         <legend>Contact Form</legend>
         <form action="mailto:katie@devinney.org" method="post">
@@ -35,7 +52,7 @@
                 <option value="email">Email</option>
                 <option value="phone">Phone</option>
             </select><br>
-            <p>Is this a question or a comment?</p>
+            <p class="noIndent">Is this a question or a comment?</p>
             <label for="comment">Comment</label>
             <input type="radio" name="contact" value="comment" id="comment">
             <br>
@@ -53,7 +70,7 @@
     </fieldset>
 
         <footer>
-        <h3>2022 Katie Devinney - information courtesy of Wikipedia and IMDB - <a
+        <h3 class="footer">2022 Katie Devinney - information courtesy of Wikipedia and IMDB - <a
                 href="https://www.dallascollege.edu/pages/default.aspx" target="_blank">Dallas College</a> - <a
                 href="mailto:webmaster@webmaster.com">Email Webmaster</a></h3>
     </footer>
