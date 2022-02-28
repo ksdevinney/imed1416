@@ -36,10 +36,8 @@ a:focus, a:hover {
 }
 
 a:active {
-    color: burlywood;
+    color: #AD4B4B;
 }
-
-
 
 #noIndent {
     text-indent: none;
@@ -72,4 +70,25 @@ h1, h2, h3, h4, h5, h6 {
     list-style-position: inside;
     text-indent: 3.5rem;
 }
+
+#awardsList {
+    list-style-type: square;
+    list-style-position: inside;
+}
 /* style for at least 1 id */
+
+dt {
+    margin-top: 1.5rem;
+    font-weight: bold;
+    /* font-size: 1.25rem; */
+}
+
+dd {
+    margin-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+hr {
+    border-color: #691269;
+    border-width: 2px;
+}
