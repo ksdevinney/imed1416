@@ -9,7 +9,7 @@ figure {
     border-radius: 10px 30px;
     padding: 3rem;
     margin-top: 10px;
-    background-color: honeydew;
+    background-color: #D8BFD8;
 }
 
 /* float rule to float gallery in rows 
@@ -17,4 +17,16 @@ images must be smaller than width of the page
 images and related content should  be grouped into containers
 clear the floats*/
 
+.container {
+    float: left;
+    width: 50%;
+}
+
+.container:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
 /* fix nav menu to top of page using fixed or sticky */
+/* will do this in style.css */
