@@ -10,6 +10,7 @@ figure {
     padding: 3rem;
     margin-top: 10px;
     background-color: #D8BFD8;
+    box-sizing: border-box;
 }
 
 /* float rule to float gallery in rows 
@@ -19,13 +20,19 @@ clear the floats*/
 
 .container {
     float: left;
-    width: 50%;
+    width: 35%;
 }
+/* 3rd/4th images keep popping out in different window sizes and I have no idea why! */
 
-.container:after {
+/* .container:after {
     content: " ";
     display: block;
     clear: both;
+} */
+
+.bigContainer {
+    float: left;
+    width: 100%;
 }
 
 /* fix nav menu to top of page using fixed or sticky */
