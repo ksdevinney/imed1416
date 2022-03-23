@@ -9,26 +9,18 @@ figure {
     box-sizing: border-box;
 }
 
-/* float rule to float gallery in rows 
-images must be smaller than width of the page
-images and related content should  be grouped into containers
-clear the floats*/
-
 .imgP {
     /* width: 150px; */
     float: left;
 }
 
-/* img {
-    float: left;
-} */
-
 .container {
     float: left;
     width: 50%;
     background-color: aquamarine;
+    justify-self: center;
+    align-self: stretch;
 }
-/* 3rd/4th images keep popping out in different window sizes and I have no idea why! */
 
 /* .container:after {
     content: " ";
@@ -52,5 +44,12 @@ clear the floats*/
     align-items: middle;
 }
 
-/* fix nav menu to top of page using fixed or sticky */
-/* will do this in style.css */
+.column-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.column-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
