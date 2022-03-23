@@ -25,7 +25,8 @@ clear the floats*/
 
 .container {
     float: left;
-    width: 35%;
+    width: 50%;
+    background-color: aquamarine;
 }
 /* 3rd/4th images keep popping out in different window sizes and I have no idea why! */
 
@@ -42,6 +43,13 @@ clear the floats*/
     border-radius: 10px 30px;
     float: left;
     width: 100%;
+    display: grid;
+    grid-template: repeat(3, auto) / 50% 50%;
+    grid-auto-flow: row;
+    justify-items: center;
+    justify-content: space-around;
+    align-content: center;
+    align-items: middle;
 }
 
 /* fix nav menu to top of page using fixed or sticky */
