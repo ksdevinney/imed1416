@@ -107,7 +107,7 @@ hr {
     padding: 10px;
 }
 
-#navbar {
+nav {
     position: fixed;
     top: 0;
     overflow: hidden;
