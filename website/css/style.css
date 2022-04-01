@@ -114,3 +114,17 @@ nav {
     background-color: lavender;
     width: 100%;
 }
+
+/* fun w/flexbox */
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+/* aside {
+    flex: 0 3 auto;
+} */
