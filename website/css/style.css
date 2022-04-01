@@ -9,7 +9,6 @@ p {
     padding: 1.5rem;
     text-indent: 3rem;
 }
-/* style for at least one class */
 
 h3.footer {
     font-size: 1rem;
@@ -119,12 +118,19 @@ nav {
 
 main {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: stretch;
+    flex-direction: row-reverse;
+    /* justify-content: space-around;
+    align-items: stretch; */
+    /* align-content: flex-start; */
 }
 
-/* aside {
-    flex: 0 3 auto;
+/* .priority {
+    flex: 0 1 75%;
+    align-self: auto;
+    order: 1;
 } */
+
+aside {
+    flex: 0 1 15%;
+    order: 0;
+}
