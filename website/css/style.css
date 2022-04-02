@@ -119,12 +119,14 @@ nav {
 main {
     display: flex;
     flex-direction: row-reverse;
-    /* justify-content: space-around;
-    align-items: stretch; */
-    /* align-content: flex-start; */
+    flex-wrap: nowrap;
+    flex-flow: row-reverse;
+    justify-content: space-around;
+    align-items: stretch; 
+    align-content: flex-start;
 }
 
-/* .priority {
+/* section {
     flex: 0 1 75%;
     align-self: auto;
     order: 1;
@@ -133,4 +135,20 @@ main {
 aside {
     flex: 0 1 15%;
     order: 0;
+    align-self: flex-start;
+    background-color: aliceblue;
 }
+
+/* Parent attributes
+display
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content
+
+Child attributes
+order
+align-self
+flex */
