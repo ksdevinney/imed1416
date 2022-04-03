@@ -8,7 +8,6 @@ figure {
 }
 
 .imgP {
-    /* width: 150px; */
     float: left;
 }
 
@@ -19,12 +18,6 @@ figure {
     justify-self: center;
     align-self: stretch;
 }
-
-/* .container:after {
-    content: " ";
-    display: block;
-    clear: both;
-} */
 
 .bigContainer {
     border-color: gray;
