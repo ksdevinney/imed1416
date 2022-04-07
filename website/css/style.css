@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
 body {
     font-family: Avenir, Geneva, Calibri, sans-serif;
     color: #000066;
@@ -131,4 +137,19 @@ aside {
     order: 0;
     align-self: flex-start;
     background-color: aliceblue;
+}
+
+/* media queries */
+
+@media screen and ( max-width: 1024px) {
+    body { background-color: chartreuse; }
+    aside {  }    
+}
+
+@media screen and ( max-width: 768px ) {
+    body { background-color: tan; }
+}
+
+@media screen and ( max-width: 480px ) {
+    body { background-color: orange; }
 }
