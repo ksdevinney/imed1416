@@ -142,16 +142,19 @@ aside {
 /* media queries */
 
 @media screen and ( max-width: 1024px) {
-    body { background-color: chartreuse; }
+    /* body { background-color: chartreuse; } */
     main { display: flex; flex-direction: column;}
-    aside { max-width: 75%; }    
+    aside { max-width: 75%; align-self: center; }    
 }
 
 @media screen and ( max-width: 768px ) {
-    body { background-color: tan; }
+    /* body { background-color: tan; } */
     p { align-content: center; }
+    h1, h2, h3 { text-align: center; }
+    td { text-align: left; }
 }
 
 @media screen and ( max-width: 480px ) {
-    body { background-color: orange; }
+    /* body { background-color: orange; } */
+    aside { overflow: hidden; }
 }
