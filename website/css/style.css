@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
+ } */
 
 body {
     font-family: Avenir, Geneva, Calibri, sans-serif;
@@ -143,11 +143,13 @@ aside {
 
 @media screen and ( max-width: 1024px) {
     body { background-color: chartreuse; }
-    aside {  }    
+    main { display: flex; flex-direction: column;}
+    aside { max-width: 75%; }    
 }
 
 @media screen and ( max-width: 768px ) {
     body { background-color: tan; }
+    p { align-content: center; }
 }
 
 @media screen and ( max-width: 480px ) {
