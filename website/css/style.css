@@ -142,19 +142,23 @@ aside {
 /* media queries */
 
 @media screen and ( max-width: 1024px) {
-    /* body { background-color: chartreuse; } */
+    body { background-color: chartreuse; }
     main { display: flex; flex-direction: column;}
-    aside { max-width: 75%; align-self: center; }    
+    aside { max-width: 75%; align-self: center; }
+    figure { align-self: auto; padding: 0rem; }
+    .container { width: 100%; display: block; }    
 }
 
 @media screen and ( max-width: 768px ) {
-    /* body { background-color: tan; } */
-    p { align-content: center; }
+    body { background-color: tan; }
+    p { align-content: left; }
     h1, h2, h3 { text-align: center; }
     td { text-align: left; }
+    img { align-content: flex-start; width: fit-content;}
+    .container { float: none; justify-self: left; }
 }
 
 @media screen and ( max-width: 480px ) {
-    /* body { background-color: orange; } */
+    body { background-color: orange; }
     aside { overflow: hidden; }
 }
