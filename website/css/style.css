@@ -1,14 +1,17 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- } */
+/* 
+-add gradient
+-add transition effect
+-add transform effect
+-add a keyframe animation
+-add a social navbar with 4 social icons
+ */
 
 body {
     font-family: Avenir, Geneva, Calibri, sans-serif;
     color: #000066;
     text-align: justify;
-    background-color: #e6e6ff;
+    background: linear-gradient(to right, #A7BFE8, #6190E8); 
+
 }
 
 p {
@@ -116,7 +119,7 @@ nav {
     position: fixed;
     top: 0;
     overflow: hidden;
-    background-color: lavender;
+    background-color: #A7BFE8;
     width: 100%;
 }
 
