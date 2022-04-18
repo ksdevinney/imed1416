@@ -7,6 +7,11 @@ figure {
     box-sizing: border-box;
 }
 
+/* transformation */
+img:hover {
+    transform: scale(2, 2);
+}
+
 .imgP {
     float: left;
 }

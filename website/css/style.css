@@ -1,7 +1,4 @@
 /* 
--add gradient
--add transition effect
--add transform effect
 -add a keyframe animation
 -add a social navbar with 4 social icons
  */
@@ -35,7 +32,7 @@ a:visited {
 }
 
 a:hover {
-    color: #AD4B4B;
+    color: plum;
 }
 
 /* add focus, hover, active pseduoclasses for a */
@@ -88,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
     list-style-type: square;
     list-style-position: inside;
 }
-/* style for at least 1 id */
 
 dt {
     margin-top: 1.5rem;
@@ -113,6 +109,12 @@ hr {
 .navs {
     float: left;
     padding: 10px;
+    transition: 2s;
+}
+
+/* transition property */
+li.navs:hover {
+    font-size: larger;
 }
 
 nav {
@@ -135,11 +137,19 @@ main {
     align-content: flex-start;
 }
 
+/* animation */
+@keyframes test {
+    from {background-color: aliceblue;}
+    to {background-color: honeydew;}
+}
+
 aside {
     flex: 0 1 15%;
     order: 0;
     align-self: flex-start;
     background-color: aliceblue;
+    animation-name: test;
+    animation-duration: 4s;
 }
 
 /* media queries */
