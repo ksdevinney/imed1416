@@ -7,3 +7,28 @@
     --light: #DFCFBE;
     --dark: #34568B;
 }
+
+body {
+    background: var(--color2);
+}
+
+nav {
+    background-color: var(--color1);
+}
+
+h1, h2, h3 {
+    color: var(--color3);
+    text-shadow: 2px 2px 5px var(--dark)
+}
+
+p {
+    color: var(--dark);
+}
+
+a:link {
+    color: var(--dark);
+}
+
+a:visited {
+    color: var(--light);
+}

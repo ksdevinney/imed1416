@@ -6,3 +6,32 @@
     --light: #acac9a;
     --dark: #343236;
 }
+
+body {
+    background: var(--color1);
+}
+
+nav {
+    background-color: var(--color2);
+}
+
+h1, h2, h3 {
+    color: var(--color3);
+    text-shadow: 2px 2px 5px var(--dark)
+}
+
+p {
+    color: var(--light);
+}
+
+a:link {
+    color: var(--dark);
+}
+
+a:visited {
+    color: var(--light);
+}
+
+label {
+    color: var(--light)
+}

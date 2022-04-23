@@ -140,7 +140,7 @@ main {
 /* animation */
 @keyframes test {
     from {background-color: aliceblue;}
-    to {background-color: honeydew;}
+    to {background-color: cadetblue;}
 }
 
 aside {
