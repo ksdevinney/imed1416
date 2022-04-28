@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/theme1.css">
+    <link rel="stylesheet" id="color">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
@@ -198,6 +198,15 @@
                 In 2018 she was the twentieth recipient of the Mark Twain Prize for American Humor.
             </p>
         </section>
+        <br>
+        <ul id="styleButtons">
+            <li><button class="buttons" id="style1" onclick="changeStyle('css/theme1.css');">Style 1</button></li>
+            <li><button class="buttons" id="style2" onclick="changeStyle('css/theme2.css');">Style 2</button></li>
+            <li><button class="buttons" id="style3" onclick="changeStyle('css/theme3.css');">Style 3</button></li>
+            <li><button class="buttons" id="style4" onclick="changeStyle('css/theme4.css');">Style 4</button></li>
+            <li><button class="buttons" id="styleog" onclick="changeStyle('css/style.css');">Reset</button></li>
+        </ul>
+        <br>
     </main>
     <footer>
         <h3 class="footer">2022 Katie Devinney - information courtesy of Wikipedia and IMDB - <a
@@ -209,6 +218,7 @@
                 <a href="www.twitter.com"><div class="twitter"></div></a>
                 <a href="www.youtube.com"><div class="youtube"></div></a>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

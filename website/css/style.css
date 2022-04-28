@@ -3,7 +3,6 @@ body {
     color: #000066;
     text-align: justify;
     background: linear-gradient(to right, #A7BFE8, #6190E8); 
-
 }
 
 p {
@@ -99,6 +98,20 @@ hr {
 
 #navLinks {
     list-style-type: none;
+}
+
+#styleButtons {
+    list-style-type: none;
+}
+
+.buttons {
+    float: left;
+    width: 5rem;
+    height: 2rem;
+    margin: .1rem;
+    background-color: cornsilk;
+    color: #000066;
+    border-radius: 25%;
 }
 
 .navs {
