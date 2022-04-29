@@ -133,13 +133,19 @@ nav {
     width: 100%;
 }
 
+#welcome {
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+}
+
 /* fun w/flexbox */
 
 main {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: nowrap;
-    flex-flow: row-reverse;
+    flex-flow: row;
     justify-content: space-around;
     align-items: stretch; 
     align-content: flex-start;
@@ -153,7 +159,7 @@ main {
 
 aside {
     flex: 0 1 15%;
-    order: 0;
+    order: 1;
     align-self: flex-start;
     background-color: aliceblue;
     animation-name: test;

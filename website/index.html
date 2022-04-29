@@ -8,6 +8,8 @@
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" id="color">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
@@ -23,16 +25,25 @@
     </style>
 </head>
 
-<body>
+<body onload="nameOnPage()">
     <header>
         <h1>Julia Louis-Dreyfus</h1>
+        <div>
+            <p id="welcome"></p> 
+         </div>
     </header>
-    <nav>
+    <nav class="topnav" id="myTopnav">
         <ul id="navLinks">
-            <li class="navs"><a href="index.html">Home</a></li>
-            <li class="navs"><a href="faq.html">FAQ</a></li>
-            <li class="navs"><a href="gallery.html">Gallery</a></li>
-            <li class="navs"><a href="contact-us.html">Contact Us</a></li>
+            <li class="navs" id="home"><a href="index.html">Home</a></li>
+            <li class="navs" id="faq"><a href="faq.html">FAQ</a></li>
+            <li class="navs" id="gallery"><a href="gallery.html">Gallery</a></li>
+            <li class="navs" id="contact"><a href="contact-us.html">Contact Us</a></li>
+            <li>
+                <a href="javascript:void(0);" class="icon" onclick="navToggle()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </li>
+            
         </ul>
     </nav>
     <main>
