@@ -16,8 +16,6 @@ function nameOnPage() {
     }
 }
 
-// window.addEventListener(onload, nameOnPage)
-
 // Create a Responsive Top navbar
 // Adapt the existing nav menu to collapse on small screens.
 // Show 'hamburger' image for small screen nav select button.
@@ -26,7 +24,7 @@ function nameOnPage() {
 function navToggle() {
     let bar = document.getElementById("myTopnav");
     if (bar.className === "topnav") {
-      bar.className += " responsive";
+      bar.className += "responsive";
     } else {
       bar.className = "topnav";
     }
