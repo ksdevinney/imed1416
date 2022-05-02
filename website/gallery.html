@@ -9,21 +9,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/theme2.css">
+    <!-- <link rel="stylesheet" href="css/theme2.css"> -->
+    <link rel="stylesheet" id="color">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header>
         <h1>Image Gallery</h1>
-        <nav id="navbar">
-            <ul id="navLinks">
-                <li class="navs"><a href="index.html">Home</a></li>
-                <li class="navs"><a href="faq.html">FAQ</a></li>
-                <li class="navs"><a href="gallery.html">Gallery</a></li>
-                <li class="navs"><a href="contact-us.html">Contact Us</a></li>
-            </ul>
-        </nav>
+
     </header>
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" id="home" class="active">Home</a>
+        <a href="faq.html">FAQ</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact-us.html">Contact Us</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="navToggle()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
     <!-- div for float -->
     <div class="bigContainer">
         <!-- containers for figure with paragraph -->
@@ -128,12 +134,22 @@
             </p>
         </div>
     </div>
+    <br>
+    <ul id="styleButtons">
+        <li><button class="buttons" id="style1" onclick="changeStyle('css/theme1.css');">Style 1</button></li>
+        <li><button class="buttons" id="style2" onclick="changeStyle('css/theme2.css');">Style 2</button></li>
+        <li><button class="buttons" id="style3" onclick="changeStyle('css/theme3.css');">Style 3</button></li>
+        <li><button class="buttons" id="style4" onclick="changeStyle('css/theme4.css');">Style 4</button></li>
+        <li><button class="buttons" id="styleog" onclick="changeStyle('css/style.css');">Reset</button></li>
+    </ul>
+    <br>
 
     <footer>
         <h3 class="footer">2022 Katie Devinney - information courtesy of Wikipedia and IMDB - <a
                 href="https://www.dallascollege.edu/pages/default.aspx" target="_blank">Dallas College</a> - <a
                 href="mailto:webmaster@webmaster.com">Email Webmaster</a></h3>
     </footer>
+    <script src="javascript/script.js"></script>
 </body>
 
 </html>
