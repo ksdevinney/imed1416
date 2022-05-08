@@ -20,6 +20,7 @@ function nameOnPage() {
 // Adapt the existing nav menu to collapse on small screens.
 // Show 'hamburger' image for small screen nav select button.
 // Add the new menu to all site pages.
+// ?????
 
 function navToggle() {
     let bar = document.getElementById("myTopnav");

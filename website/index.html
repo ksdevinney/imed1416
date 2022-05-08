@@ -10,6 +10,7 @@
     <link rel="stylesheet" id="color">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
@@ -55,16 +56,17 @@
 <body onload="nameOnPage()">
     <header>
         <h1>Julia Louis-Dreyfus</h1>
-        <div>
+        <!-- w3 class here -->
+        <div class="w3-card w3-teal">
             <p id="welcome"></p>
         </div>
     </header>
-    <nav class="topnav" id="myTopnav">
-        <a href="index.html" id="home" class="active">Home</a>
-        <a href="faq.html">FAQ</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact-us.html">Contact Us</a>
-
+    <!-- w3 class -->
+    <nav class="topnav w3-bar" id="myTopnav">
+        <a href="index.html" id="home" class="w3-bar-item w3-button w3-mobile">Home</a>
+        <a href="faq.html" class="w3-bar-item w3-button w3-mobile">FAQ</a>
+        <a href="gallery.html" class="w3-bar-item w3-button w3-mobile">Gallery</a>
+        <a href="contact-us.html" class="w3-bar-item w3-button w3-mobile">Contact Us</a>
         <a href="javascript:void(0);" class="icon" onclick="navToggle()">
             <i class="fa fa-bars"></i>
         </a>
@@ -239,11 +241,11 @@
             </section>
             <br>
             <ul id="styleButtons">
-                <li><button class="buttons" id="style1" onclick="changeStyle('css/theme1.css');">Style 1</button></li>
-                <li><button class="buttons" id="style2" onclick="changeStyle('css/theme2.css');">Style 2</button></li>
-                <li><button class="buttons" id="style3" onclick="changeStyle('css/theme3.css');">Style 3</button></li>
-                <li><button class="buttons" id="style4" onclick="changeStyle('css/theme4.css');">Style 4</button></li>
-                <li><button class="buttons" id="styleog" onclick="changeStyle('css/style.css');">Reset</button></li>
+                <li><button class="buttons w3-button w3-green" id="style1" onclick="changeStyle('css/theme1.css');">Style 1</button></li>
+                <li><button class="buttons w3-button w3-green" id="style2" onclick="changeStyle('css/theme2.css');">Style 2</button></li>
+                <li><button class="buttons w3-button w3-green" id="style3" onclick="changeStyle('css/theme3.css');">Style 3</button></li>
+                <li><button class="buttons w3-button w3-green" id="style4" onclick="changeStyle('css/theme4.css');">Style 4</button></li>
+                <li><button class="buttons w3-button w3-green" id="styleog" onclick="changeStyle('css/style.css');">Reset</button></li>
             </ul>
             <br>
     </main>
