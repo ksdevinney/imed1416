@@ -159,7 +159,8 @@ main {
 
 aside {
     flex: 0 1 15%;
-    order: 1;
+    order: 0;
+    max-width: 50%;
     align-self: flex-start;
     background-color: aliceblue;
     animation-name: test;
